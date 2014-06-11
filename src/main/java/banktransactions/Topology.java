@@ -12,7 +12,11 @@ import backtype.storm.topology.TopologyBuilder;
  *
  */
 public class Topology {
-
+/**hello test
+ * 
+ * @param args
+ * @throws InterruptedException
+ */
 	public static void main(String[] args) throws InterruptedException {
 		TopologyBuilder builder = new TopologyBuilder();
 		builder.setSpout("transactions-spout", new TransactionsSpouts());
